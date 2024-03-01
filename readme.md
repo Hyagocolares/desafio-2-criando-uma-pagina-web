@@ -1,6 +1,6 @@
 # Projeto HTML e CSS
 
-Este é um projeto HTML e CSS que cria um site responsivo com várias seções, como navegação, carrosséis, cards de produtos, postagens no blog e um rodapé.
+Este é um desafio de projeto proposto pelo team do studio digital e-comerce, que na qual eles desafiaram a criação de uma home-page com HTML, CSS e JS. E criar um site responsivo, de acordo com o produto proposto no template no figma.
 
 ## Estrutura do Projeto
 
@@ -32,11 +32,7 @@ projeto-html-css/
 git clone https://github.com/Hyagocolares/desafio-2-criando-uma-pagina-web/
 ```
 
-2. Clique no arquivo [index.html](https://hyagocolares.github.io/desafio-2-criando-uma-pagina-web/) em seu navegador da web para visualizar o site.
-
-## Contribuições
-
-Contribuições são bem-vindas! Se deseja melhorar este projeto, por favor, abra uma issue ou envie uma pull request.
+2. Clique no arquivo [index.html](https://hyagocolares.github.io/desafio-2-criando-uma-pagina-web/) para visualizar o site.
 
 ## Licença
 

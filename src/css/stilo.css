@@ -1,0 +1,289 @@
+/* -------------------------------------------------- */
+/* Carousel */
+.carousel-indicators {
+  bottom: 25px;  
+}
+
+.carousel-indicators li {
+  position: relative;
+  flex: 0 1 auto;
+  width: 64px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* -------------------------------------------------- */
+/* Bootstrap Carousel1 CSS */
+#myCarousel .banner {
+  height: 800px;
+}
+
+#myCarousel .banner .image-container {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myCarousel img.d-block.w-100 {
+  max-width: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#myCarousel .carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+#myCarousel .carousel-caption h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#myCarousel .carousel-caption p {
+  font-size: 18px;
+}
+
+#myCarousel .carousel-caption .container-carousel {
+  text-align: start;
+}
+
+#myCarousel .container-carousel {
+  display: grid;
+  grid-template-columns: 2fr 0fr;
+}
+
+#myCarousel .container-carousel .container-carousel-left {
+  padding: 0;
+}
+
+#myCarousel .carousel-caption h4 {
+  font-size: 20px;
+  margin-bottom: 6%;
+  font-weight: 600;
+}
+
+#myCarousel .carousel-caption h1 {
+  font-size: 75px;
+  margin-bottom: 6%;
+  font-weight: 600;
+}
+
+#myCarousel .carousel-caption p {
+  font-size: 30px;
+  margin-bottom: 5%;
+  font-weight: 100;
+}
+
+#myCarousel .carousel-caption button {
+  background-color: #2dc071;
+  color: #fff;
+  padding: 12px 60px;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* -------------------------------------------------- */
+/* Bootstrap Carousel2 CSS */
+
+#myCarousel2 .banner {
+  height: 800px;
+}
+
+#myCarousel2 .banner .image-container {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myCarousel2 img.d-block.w-100 {
+  max-width: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#myCarousel2 .carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+#myCarousel2 .carousel-caption h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#myCarousel2 .carousel-caption p {
+  font-size: 18px;
+}
+
+#myCarousel2 .carousel-caption .container-carousel {
+  text-align: start;
+}
+
+#myCarousel2 .container-carousel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#myCarousel2 .carousel-caption h4 {
+  font-size: 24px;
+  margin-bottom: 10%;
+}
+
+#myCarousel2 .carousel-caption h1 {
+  font-size: 76px;
+  margin-bottom: 8%;
+  font-weight: 600;
+}
+
+#myCarousel2 .carousel-caption p {
+  font-size: 19px;
+  margin-bottom: 6%;
+}
+
+#myCarousel2 .container-carousel .container-carousel-left .caption-menu {
+  display: flex;
+  align-items: center;
+}
+
+#myCarousel2 .container-carousel .container-carousel-left .caption-menu li {
+  list-style-type: none; 
+}
+
+#myCarousel2 .container-carousel .container-carousel-left .caption-menu li p {
+  font-size: 26px;
+  margin: 0 60px 0 0;
+  font-weight: 600;
+}
+
+#myCarousel2 .carousel-caption button {
+  background-color: #2dc071;
+  color: #fff;
+  padding: 14px 37px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+
+/* Media Query para telas menores que 480px */
+@media only screen and (max-width: 480px) {
+  #myCarousel .banner {
+    height: 500px;
+  }
+
+  #myCarousel .carousel-caption {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #myCarousel .carousel-caption h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  #myCarousel .carousel-caption p {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  #myCarousel .carousel-caption .container-carousel {
+    text-align: center;
+  }
+
+  #myCarousel .container-carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #myCarousel .carousel-caption h4 {
+    font-size: 16px;
+    margin-bottom: 4%;
+  }
+
+  #myCarousel .carousel-caption h1 {
+    font-size: 45px;
+    margin-bottom: 4%;
+  }
+
+  #myCarousel .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 4%;
+  }
+
+  #myCarousel .carousel-caption button {
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+
+
+  #myCarousel2 .banner {
+    height: 500px;
+  }
+
+  #myCarousel2 .carousel-caption {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #myCarousel2 .carousel-caption h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  #myCarousel2 .carousel-caption p {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  #myCarousel2 .carousel-caption .container-carousel {
+    text-align: center;
+  }
+
+  #myCarousel2 .container-carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #myCarousel2 .carousel-caption h4 {
+    font-size: 16px;
+    margin-bottom: 4%;
+  }
+
+  #myCarousel2 .carousel-caption h1 {
+    font-size: 45px;
+    margin-bottom: 4%;
+  }
+
+  #myCarousel2 .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 4%;
+  }
+
+  #myCarousel2 .carousel-caption button {
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+}

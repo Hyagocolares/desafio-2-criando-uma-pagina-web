@@ -3,610 +3,575 @@
 <!-- Official -->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie-edge">
-  <title>E-commerce - Home Page</title>
-  <link rel="icon" href="src/img/Bandage.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="stilo (atualizado) copy.css">
-  <link rel="stylesheet" href="stilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>E-commerce - Home Page</title>
+    <link rel="icon" href="src/img/Bandage.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/stilo2.css">
+    <link rel="stylesheet" href="src/css/stilo.css">
 </head>
 
 <body>
-  <!-- Cabeçalho -->
-  <header id="myNav">
-    <nav class="custom-nav">
-      <nav class="custom-navbar-dark">
-        <p><a href="#"><img src="src/img/nav/navdark/telefonevetor.svg" alt="Telefone"> (225) 555-0118</a><a
-            href="#"><img src="src/img/nav/navdark/emailvector.svg" alt="Email"> michelle.rivera@example.com</a></p>
-        <p>Follow Us and get a chance to win 80% off</p>
-        <p class="redes"> Follow Us :
-          <a href="#"><img src="src/img/nav/navdark/logorede/instagramvetor.svg" alt="Instagram"></a>
-          <a href="#"><img src="src/img/nav/navdark/logorede/youtubevetor.svg" alt="Youtube"></a>
-          <a href="#"><img src="src/img/nav/navdark/logorede/facebookvetor.svg" alt="Facebook"></a>
-          <a href="#"><img src="src/img/nav/navdark/logorede/twittervetor.svg" alt="Twitter"></a>
-        </p>
-      </nav>
-      <nav class="custom-navbar-light">
-        <a href="#" class="logo"><img src="src/img/nav/navlight/logbandage.svg" alt="Bandage"></a>
-        <section class="nav-menu-icons">
-          <section class="menu-light">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a class="shop" href="#">Shop <img src="src/img/nav/navlight/droptogglevetor.svg" alt="Botão Drop-Toggle"></a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Pages</a></li>
-            </ul>
-          </section>
-          <section class="icons-light">
-            <a href="#"><img src="src/img/nav/navlight/usuariovetor.svg" alt="Usuario">
-              <p>Login / Register</p>
-            </a>
-            <a href="#"><img src="src/img/nav/navlight/lupavetor.svg" alt="Lupa"></a>
-            <a href="#"><img src="src/img/nav/navlight/carrinhovetor.svg" alt="Carrinho">
-              <p class="num"> 1</p>
-            </a>
-            <a href="#"><img src="src/img/nav/navlight/gosteivetor.svg" alt="Gostei">
-              <p class="num"> 1</p>
-            </a>
-          </section>
-        </section>
-      </nav>
-    </nav>
-  </header>
-
-  <main><!-- Inicio do main -->
-
-    <!-- Carousel1 -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="50000">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <section class="banner">
-            <div class="image-container">
-              <img class="d-block w-100" src="src/img/carousel1/banner-1.jpeg" alt="First slide">
-            </div>
-          </section>
-          <div class="carousel-caption">
-            <section class="container-carousel">
-              <article class="container-carousel-left">
-                <h4>SUMMER 2020</h4>
-                <h1>NEW COLLECTION</h1>
-                <p>We know how large objects will act,<br>but things on a small scale.</p>
-                <button>SHOP NOW</button>
-              </article>
-              <article class="container-carousel-right">
-              </article>
-            </section>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <section class="banner">
-            <div class="image-container">
-              <img class="d-block w-100" src="src/img/carousel1/banner-2.jpeg" alt="Second slide">
-            </div>
-          </section>
-          <div class="carousel-caption">
-            <section class="container-carousel">
-              <article class="container-carousel-left">
-                <h4>SUMMER 2020</h4>
-                <h1>NEW COLLECTION</h1>
-                <p>We know how large objects will act,<br>but things on a small scale.</p>
-                <button>SHOP NOW</button>
-              </article>
-              <article class="container-carousel-right">
-              </article>
-            </section>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <img src="src/img/carousel1/botãoanteriorvetor.svg" alt="">
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <img src="src/img/carousel1/botãoproximovetor.svg" alt="">
-      </a>
-    </div>
-
-    <!-- Shop Cards -->
-    <section class="shop-cards" id="myShopCards">
-      <header class="header-card">
-        <h2>EDITOR'S PICK</h2>
-        <p>Problems trying to resolve the conflict between</p>
-      </header>
-      <section class="grid-template">
-        <card class="grid-item men">
-          <h2>MEN</h2>
-        </card>
-        <aside class="grid-aside-right">
-          <card class="grid-item women">
-            <h2>WOMEN</h2>
-          </card>
-          <aside class="grid-aside">
-            <card class="grid-item accessories">
-              <h2>ACCESSORIES</h2>
-            </card>
-            <card class="grid-item kids">
-              <h2>KIDS</h2>
-            </card>
-          </aside>
-        </aside>
-      </section>
-    </section>
-
-    <!-- Products Cards -->
-    <section class="product-cards" id="myProductCards">
-      <header class="header-product">
-        <h3>Featured Products</h3>
-        <h2>BESTSELLER PRODUCTS</h2>
-        <p>Problems trying to resolve the conflict between</p>
-      </header>
-
-      <section class="grid-template-product">
-        <card class="card-product">
-          <img src="src/img/productcards/product1.png" alt="">
-          <article>
-            <h3>Graphic Design</h3>
-            <p>English Department</p>
-            <ul class="color-price">
-              <li class="original-price">$16.48</li>
-              <li class="discount-price">$6.48</li>
-            </ul>
-          </article>
-          <ul>
-            <li class="color blue"></li>
-            <li class="color green"></li>
-            <li class="color range"></li>
-            <li class="color black"></li>
-          </ul>
-        </card>
-        <card class="card-product">
-          <img src="src/img/productcards/product2.png" alt="">
-          <article>
-            <h3>Graphic Design</h3>
-            <p>English Department</p>
-            <ul class="color-price">
-              <li class="original-price">$16.48</li>
-              <li class="discount-price">$6.48</li>
-            </ul>
-          </article>
-          <ul>
-            <li class="color blue"></li>
-            <li class="color green"></li>
-            <li class="color range"></li>
-            <li class="color black"></li>
-          </ul>
-        </card>
-        <card class="card-product">
-          <img src="src/img/productcards/product3.png" alt="">
-          <article>
-            <h3>Graphic Design</h3>
-            <p>English Department</p>
-            <ul class="color-price">
-              <li class="original-price">$16.48</li>
-              <li class="discount-price">$6.48</li>
-            </ul>
-          </article>
-          <ul>
-            <li class="color blue"></li>
-            <li class="color green"></li>
-            <li class="color range"></li>
-            <li class="color black"></li>
-          </ul>
-        </card>
-        <card class="card-product">
-          <img src="src/img/productcards/product4.png" alt="">
-          <article>
-            <h3>Graphic Design</h3>
-            <p>English Department</p>
-            <ul class="color-price">
-              <li class="original-price">$16.48</li>
-              <li class="discount-price">$6.48</li>
-            </ul>
-          </article>
-          <ul>
-            <li class="color blue"></li>
-            <li class="color green"></li>
-            <li class="color range"></li>
-            <li class="color black"></li>
-          </ul>
-        </card>
-      </section>
-
-      <section class="grid-template-product">
-        <card class="card-product">
-          <img src="src/img/productcards/product5.png" alt="">
-          <article>
-            <h3>Graphic Design</h3>
-            <p>English Department</p>
-            <ul class="color-price">
-              <li class="original-price">$16.48</li>
-              <li class="discount-price">$6.48</li>
-            </ul>
-          </article>
-          <ul>
-            <li class="color blue"></li>
-            <li class="color green"></li>
-            <li class="color range"></li>
-            <li class="color black"></li>
-          </ul>
-        </card>
-        <card class="card-product">
-          <img src="src/img/productcards/product6.png" alt="">
-          <article>
-            <h3>Graphic Design</h3>
-            <p>English Department</p>
-            <ul class="color-price">
-              <li class="original-price">$16.48</li>
-              <li class="discount-price">$6.48</li>
-            </ul>
-          </article>
-          <ul>
-            <li class="color blue"></li>
-            <li class="color green"></li>
-            <li class="color range"></li>
-            <li class="color black"></li>
-          </ul>
-        </card>
-        <card class="card-product">
-          <img src="src/img/productcards/product7.png" alt="">
-          <article>
-            <h3>Graphic Design</h3>
-            <p>English Department</p>
-            <ul class="color-price">
-              <li class="original-price">$16.48</li>
-              <li class="discount-price">$6.48</li>
-            </ul>
-          </article>
-          <ul>
-            <li class="color blue"></li>
-            <li class="color green"></li>
-            <li class="color range"></li>
-            <li class="color black"></li>
-          </ul>
-        </card>
-        <card class="card-product">
-          <img src="src/img/productcards/product8.png" alt="">
-          <article>
-            <h3>Graphic Design</h3>
-            <p>English Department</p>
-            <ul class="color-price">
-              <li class="original-price">$16.48</li>
-              <li class="discount-price">$6.48</li>
-            </ul>
-          </article>
-          <ul>
-            <li class="color blue"></li>
-            <li class="color green"></li>
-            <li class="color range"></li>
-            <li class="color black"></li>
-          </ul>
-        </card>
-      </section>
-
-    </section>
-
-    <!-- Carousel2 -->
-    <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="500000">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel2" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <section class="banner">
-            <div class="image-container">
-              <img class="d-block w-100" src="src/img/carousel2/banner1.jpg" alt="First slide">
-            </div>
-          </section>
-          <div class="carousel-caption">
-            <section class="container-carousel">
-              <article class="container-carousel-left">
-                <h4>SUMMER 2020</h4>
-                <h1>Vita Classic Product</h1>
-                <p>We know how large objects will act, We know<br>how are objects will act, We know.</p>
-                <menu class="caption-menu">
-                  <li><p>$16.48</p></li>
-                  <li><button>ADD TO CART</button></li>
-                </menu>
-              </article>
-              <article class="container-carousel-right">
-              </article>
-            </section>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <section class="banner">
-            <div class="image-container">
-              <img class="d-block w-100" src="src/img/carousel2/banner3.jpg" alt="Second slide">
-            </div>
-          </section>
-          <div class="carousel-caption">
-            <section class="container-carousel">
-              <article class="container-carousel-left">
-                <h4>SUMMER 2020</h4>
-                <h1>Vita Classic Product</h1>
-                <p>We know how large objects will act, We know<br>how are objects will act, We know.</p>
-                <menu class="caption-menu">
-                  <li><p>$16.48</p></li>
-                  <li><button>ADD TO CART</button></li>
-                </menu>
-              </article>
-              <article class="container-carousel-right">
-              </article>
-            </section>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev">
-        <img src="src/img/carousel1/botãoanteriorvetor.svg" alt="">
-      </a>
-      <a class="carousel-control-next" href="#myCarousel2" role="button" data-slide="next">
-        <img src="src/img/carousel1/botãoproximovetor.svg" alt="">
-      </a>
-    </div>
-
-    <!-- Container -->
-    <section class="container-fluid" id="myContainerFluid">
-      <img src="src/img/containerfluid/asian-woman-man-with-winter-clothes 1.png" alt="">
-      <header>
-        <h5>SUMMER 2020</h5>
-        <h1>Part of the Neural<br>Universe</h1>
-        <p>We know how large objects will act,<br />
-          but things on a small scale.</p>
-        <menu>
-          <li>
-            <button class="left">BUY NOW</button>
-          </li>
-          <li>
-            <button class="right">READ MORE</button>
-          </li>
-        </menu>
-      </header>
-    </section>
-
-    <!-- Blog -->
-    <section class="blog" id="myBlog">
-      <header>
-        <article>
-          <p class="cor-azul">Practice Advice</p>
-          <h2>Featured Posts</h2>
-          <p>Problems trying to resolve the conflict between<br />
-            the two major realms of Classical physics: Newtonian mechanics </p>
-        </article>
-      </header>
-      <section class="sectionBlog">
-        <card>
-          <figure><img src="src/img/blog/rua.png" alt=""></figure>
-          <article>
-            <menu class="menu-top">
-              <li>
-                <p>Google</p>
-              </li>
-              <li>
-                <p>Trending</p>
-              </li>
-              <li>
-                <p>New</p>
-              </li>
-            </menu>
-            <main>
-              <h3>Loudest à la Madison #1
-                (L'integral)</h3>
-              <p>We focus on ergonomics and meeting
-                you where you work. It's only a
-                keystroke away.</p>
-            </main>
-            <section class="section">
-              <menu class="menu">
-                <li><img src="src/img/blog/icon cool-icon-coolicon vector.svg" alt="">
-                  <p>22 April 2021</p>
-                </li>
-                <li><img src="src/img/blog/icon ant-design-area-chart-outlined vector.svg" alt="">
-                  <p>10 comments</p>
-                </li>
-              </menu>
-            </section>
-            <footer>
-              <h4>Learn More</h4> <img src="src/img/blog/@none.svg" alt="">
-            </footer>
-          </article>
-        </card>
-        <card>
-          <figure><img src="src/img/blog/fusca.png" alt=""></figure>
-          <article>
-            <menu class="menu-top">
-              <li>
-                <p>Google</p>
-              </li>
-              <li>
-                <p>Trending</p>
-              </li>
-              <li>
-                <p>New</p>
-              </li>
-            </menu>
-            <main>
-              <h3>Loudest à la Madison #1
-                (L'integral)</h3>
-              <p>We focus on ergonomics and meeting
-                you where you work. It's only a
-                keystroke away.</p>
-            </main>
-            <section class="section">
-              <menu class="menu">
-                <li><img src="src/img/blog/icon cool-icon-coolicon vector.svg" alt="">
-                  <p>22 April 2021</p>
-                </li>
-                <li><img src="src/img/blog/icon ant-design-area-chart-outlined vector.svg" alt="">
-                  <p>10 comments</p>
-                </li>
-              </menu>
-            </section>
-            <footer>
-              <h4>Learn More</h4><img src="src/img/blog/@none.svg" alt="">
-            </footer>
-          </article>
-        </card>
-        <card>
-          <figure><img src="src/img/blog/guardachuva.png" alt=""></figure>
-          <article>
-            <menu class="menu-top">
-              <li>
-                <p>Google</p>
-              </li>
-              <li>
-                <p>Trending</p>
-              </li>
-              <li>
-                <p>New</p>
-              </li>
-            </menu>
-            <main>
-              <h3>Loudest à la Madison #1
-                (L'integral)</h3>
-              <p>We focus on ergonomics and meeting
-                you where you work. It's only a
-                keystroke away.</p>
-            </main>
-            <section class="section">
-              <menu class="menu">
-                <li><img src="src/img/blog/icon cool-icon-coolicon vector.svg" alt="">
-                  <p>22 April 2021</p>
-                </li>
-                <li><img src="src/img/blog/icon ant-design-area-chart-outlined vector.svg" alt="">
-                  <p>10 comments</p>
-                </li>
-              </menu>
-            </section>
-            <footer>
-              <h4>Learn More</h4><img src="src/img/blog/@none.svg" alt="">
-            </footer>
-          </article>
-        </card>
-      </section>
-    </section>
-
-    <!-- Fim do main -->
-  </main>
-
-  <!-- Rodapé -->
-  <footer id="myFooter">
-    <header class="footer-imgs">
-      <section class="container-imgs">
-        <img class="logo" src="src/img/footer/Bandage.svg" alt="">
-        <figure>
-          <img src="src/img/footer/Vector.png" alt="">
-          <img src="src/img/footer/Vector(1).png" alt="">
-          <img src="src/img/footer/Vector(2).png" alt="">
-        </figure>
-      </section>
+    <!-- Cabeçalho -->
+    <header id="myNav">
+        <nav class="custom-nav">
+            <nav class="custom-navbar-dark">
+                <p><a href="#"><img src="src/img/nav/navdark/telefonevetor.svg" alt="Telefone"> (225) 555-0118</a><a
+                        href="#"><img src="src/img/nav/navdark/emailvector.svg" alt="Email">
+                        michelle.rivera@example.com</a></p>
+                <p>Follow Us and get a chance to win 80% off</p>
+                <p class="redes"> Follow Us :
+                    <a href="#"><img src="src/img/nav/navdark/logorede/instagramvetor.svg" alt="Instagram"></a>
+                    <a href="#"><img src="src/img/nav/navdark/logorede/youtubevetor.svg" alt="Youtube"></a>
+                    <a href="#"><img src="src/img/nav/navdark/logorede/facebookvetor.svg" alt="Facebook"></a>
+                    <a href="#"><img src="src/img/nav/navdark/logorede/twittervetor.svg" alt="Twitter"></a>
+                </p>
+            </nav>
+            <nav class="custom-navbar-light">
+                <a href="#" class="logo"><img src="src/img/nav/navlight/logbandage.svg" alt="Bandage"></a>
+                <section class="nav-menu-icons">
+                    <section class="menu-light">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a class="shop" href="#">Shop <img src="src/img/nav/navlight/droptogglevetor.svg"
+                                        alt="Botão Drop-Toggle"></a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Pages</a></li>
+                        </ul>
+                    </section>
+                    <section class="icons-light">
+                        <a href="#"><img src="src/img/nav/navlight/usuariovetor.svg" alt="Usuario">
+                            <p>Login / Register</p>
+                        </a>
+                        <a href="#"><img src="src/img/nav/navlight/lupavetor.svg" alt="Lupa"></a>
+                        <a href="#"><img src="src/img/nav/navlight/carrinhovetor.svg" alt="Carrinho">
+                            <p class="num"> 1</p>
+                        </a>
+                        <a href="#"><img src="src/img/nav/navlight/gosteivetor.svg" alt="Gostei">
+                            <p class="num"> 1</p>
+                        </a>
+                    </section>
+                </section>
+            </nav>
+        </nav>
     </header>
-    <hr>
-    <main class="footer-main">
-      <ul>
-        <li>
-          <h4>Company Info</h4>
-        </li>
-        <li>
-          <p>About Us</p>
-        </li>
-        <li>
-          <p>Carrier</p>
-        </li>
-        <li>
-          <p>We are hiring</p>
-        </li>
-        <li>
-          <p>Blog</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h4>Legal</h4>
-        </li>
-        <li>
-          <p>About Us</p>
-        </li>
-        <li>
-          <p>Carrier</p>
-        </li>
-        <li>
-          <p>We are hiring</p>
-        </li>
-        <li>
-          <p>Blog</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h4>Features</h4>
-        </li>
-        <li>
-          <p>Business Marketing</p>
-        </li>
-        <li>
-          <p>User Analytic</p>
-        </li>
-        <li>
-          <p>Live Chat</p>
-        </li>
-        <li>
-          <p>Unlimited Support</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h4>Resources</h4>
-        </li>
-        <li>
-          <p>IOS & Android</p>
-        </li>
-        <li>
-          <p>Watch a Demo</p>
-        </li>
-        <li>
-          <p>Customers</p>
-        </li>
-        <li>
-          <p>API</p>
-        </li>
-      </ul>
-      <ul class="main-email">
-        <li>
-          <h4>Get In Touch</h4>
-        </li>
-        <li>
-          <section class="email-subscription">
-            <input type="email" placeholder="Your Email">
-            <button>Subscribe</button>
-            <p>Lore imp sum dolor Amit</p>
-          </section>
-        </li>
-      </ul>
-    </main>
-    <footer class="footer">
-      <p>Made With Love By Finland All Right Reserved</p>
-    </footer>
-  </footer>
 
-  <script src="src/js/index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    <main><!-- Inicio do main -->
+
+        <!-- Carousel1 -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <section class="banner">
+                        <div class="image-container">
+                            <img class="d-block w-100" src="src/img/carousel1/banner-1.jpeg" alt="First slide uma moça posando com umas sacolas de compras">
+                        </div>
+                    </section>
+                    <div class="carousel-caption">
+                        <section class="container-carousel">
+                            <article class="container-carousel-left">
+                                <h4>SUMMER 2020</h4>
+                                <h1>NEW COLLECTION</h1>
+                                <p>We know how large objects will act,<br>but things on a small scale.</p>
+                                <button>SHOP NOW</button>
+                            </article>
+                            <article class="container-carousel-right">
+                            </article>
+                        </section>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <section class="banner">
+                        <div class="image-container">
+                            <img class="d-block w-100" src="src/img/carousel1/banner-2.jpeg" alt="Second slide uma moça posando com umas sacolas de compras">
+                        </div>
+                    </section>
+                    <div class="carousel-caption">
+                        <section class="container-carousel">
+                            <article class="container-carousel-left">
+                                <h4>SUMMER 2020</h4>
+                                <h1>NEW COLLECTION</h1>
+                                <p>We know how large objects will act,<br>but things on a small scale.</p>
+                                <button>SHOP NOW</button>
+                            </article>
+                            <article class="container-carousel-right">
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <img src="src/img/carousel1/botãoanteriorvetor.svg" alt="icone de botão para voltar">
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <img src="src/img/carousel1/botãoproximovetor.svg" alt="icone de botão para avançar">
+            </a>
+        </div>
+
+        <!-- Shop Cards -->
+        <section class="shop-cards" id="myShopCards">
+            <header class="header-card">
+                <h2>EDITOR'S PICK</h2>
+                <p>Problems trying to resolve the conflict between</p>
+            </header>
+            <section class="grid-template">
+                <card class="grid-item men">
+                    <h2>MEN</h2>
+                </card>
+                <aside class="grid-aside-right">
+                    <card class="grid-item women">
+                        <h2>WOMEN</h2>
+                    </card>
+                    <aside class="grid-aside">
+                        <card class="grid-item accessories">
+                            <h2>ACCESSORIES</h2>
+                        </card>
+                        <card class="grid-item kids">
+                            <h2>KIDS</h2>
+                        </card>
+                    </aside>
+                </aside>
+            </section>
+        </section>
+
+        <!-- Products Cards -->
+        <section class="product-cards" id="myProductCards">
+            <header class="header-product">
+                <h3>Featured Products</h3>
+                <h2>BESTSELLER PRODUCTS</h2>
+                <p>Problems trying to resolve the conflict between</p>
+            </header>
+
+            <section class="grid-template-product">
+                <card class="card-product">
+                    <img src="src/img/productcards/product1.png" alt="uma moça com uma blusa verde claro de gola alta e manga longa, e um short da cor ciano, e segurando uma bolsa da mesma cor">
+                    <article>
+                        <h3>Graphic Design</h3>
+                        <p>English Department</p>
+                        <ul class="color-price">
+                            <li class="original-price">$16.48</li>
+                            <li class="discount-price">$6.48</li>
+                        </ul>
+                    </article>
+                    <ul>
+                        <li class="color blue"></li>
+                        <li class="color green"></li>
+                        <li class="color range"></li>
+                        <li class="color black"></li>
+                    </ul>
+                </card>
+                <card class="card-product">
+                    <img src="src/img/productcards/product2.png" alt="um rapaz posando segurando uma jaqueta jeans, e uma blusa branca com estampa de letras">
+                    <article>
+                        <h3>Graphic Design</h3>
+                        <p>English Department</p>
+                        <ul class="color-price">
+                            <li class="original-price">$16.48</li>
+                            <li class="discount-price">$6.48</li>
+                        </ul>
+                    </article>
+                    <ul>
+                        <li class="color blue"></li>
+                        <li class="color green"></li>
+                        <li class="color range"></li>
+                        <li class="color black"></li>
+                    </ul>
+                </card>
+                <card class="card-product">
+                    <img src="src/img/productcards/product3.png" alt="uma moça com uma blusa manga longa rosa, e uma calça branca">
+                    <article>
+                        <h3>Graphic Design</h3>
+                        <p>English Department</p>
+                        <ul class="color-price">
+                            <li class="original-price">$16.48</li>
+                            <li class="discount-price">$6.48</li>
+                        </ul>
+                    </article>
+                    <ul>
+                        <li class="color blue"></li>
+                        <li class="color green"></li>
+                        <li class="color range"></li>
+                        <li class="color black"></li>
+                    </ul>
+                </card>
+                <card class="card-product">
+                    <img src="src/img/productcards/product4.png" alt="uma moça com um casaco estilo camusa, com um vestido longo até a canela com estampa de onça e uma bota preta">
+                    <article>
+                        <h3>Graphic Design</h3>
+                        <p>English Department</p>
+                        <ul class="color-price">
+                            <li class="original-price">$16.48</li>
+                            <li class="discount-price">$6.48</li>
+                        </ul>
+                    </article>
+                    <ul>
+                        <li class="color blue"></li>
+                        <li class="color green"></li>
+                        <li class="color range"></li>
+                        <li class="color black"></li>
+                    </ul>
+                </card>
+            </section>
+
+            <section class="grid-template-product">
+                <card class="card-product">
+                    <img src="src/img/productcards/product5.png" alt="um rapaz com um casaco de inverso com a blusa branca com a gola alta e calça preta">
+                    <article>
+                        <h3>Graphic Design</h3>
+                        <p>English Department</p>
+                        <ul class="color-price">
+                            <li class="original-price">$16.48</li>
+                            <li class="discount-price">$6.48</li>
+                        </ul>
+                    </article>
+                    <ul>
+                        <li class="color blue"></li>
+                        <li class="color green"></li>
+                        <li class="color range"></li>
+                        <li class="color black"></li>
+                    </ul>
+                </card>
+                <card class="card-product">
+                    <img src="src/img/productcards/product6.png" alt="uma moça com um top preto, com um casaco de manga comprida e calça branca">
+                    <article>
+                        <h3>Graphic Design</h3>
+                        <p>English Department</p>
+                        <ul class="color-price">
+                            <li class="original-price">$16.48</li>
+                            <li class="discount-price">$6.48</li>
+                        </ul>
+                    </article>
+                    <ul>
+                        <li class="color blue"></li>
+                        <li class="color green"></li>
+                        <li class="color range"></li>
+                        <li class="color black"></li>
+                    </ul>
+                </card>
+                <card class="card-product">
+                    <img src="src/img/productcards/product7.png" alt="rapaz de moletom listrado com as cores: azul, branco e vermelho">
+                    <article>
+                        <h3>Graphic Design</h3>
+                        <p>English Department</p>
+                        <ul class="color-price">
+                            <li class="original-price">$16.48</li>
+                            <li class="discount-price">$6.48</li>
+                        </ul>
+                    </article>
+                    <ul>
+                        <li class="color blue"></li>
+                        <li class="color green"></li>
+                        <li class="color range"></li>
+                        <li class="color black"></li>
+                    </ul>
+                </card>
+                <card class="card-product">
+                    <img src="src/img/productcards/product8.png" alt="rapaz com uma roupa preta, de manga longa">
+                    <article>
+                        <h3>Graphic Design</h3>
+                        <p>English Department</p>
+                        <ul class="color-price">
+                            <li class="original-price">$16.48</li>
+                            <li class="discount-price">$6.48</li>
+                        </ul>
+                    </article>
+                    <ul>
+                        <li class="color blue"></li>
+                        <li class="color green"></li>
+                        <li class="color range"></li>
+                        <li class="color black"></li>
+                    </ul>
+                </card>
+            </section>
+
+        </section>
+
+        <!-- Carousel2 -->
+        <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel2" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <section class="banner">
+                        <div class="image-container">
+                            <img class="d-block w-100" src="src/img/carousel2/banner1.jpg" alt="First slide de um modelo posando com a mão no queixo">
+                        </div>
+                    </section>
+                    <div class="carousel-caption">
+                        <section class="container-carousel">
+                            <article class="container-carousel-left">
+                                <h4>SUMMER 2020</h4>
+                                <h1>Vita Classic Product</h1>
+                                <p>We know how large objects will act, We know<br>how are objects will act, We know.</p>
+                                <menu class="caption-menu">
+                                    <li>
+                                        <p>$16.48</p>
+                                    </li>
+                                    <li><button>ADD TO CART</button></li>
+                                </menu>
+                            </article>
+                            <article class="container-carousel-right">
+                            </article>
+                        </section>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <section class="banner">
+                        <div class="image-container">
+                            <img class="d-block w-100" src="src/img/carousel2/banner3.jpg" alt="Second slide de um modelo posando com a mão no queixo">
+                        </div>
+                    </section>
+                    <div class="carousel-caption">
+                        <section class="container-carousel">
+                            <article class="container-carousel-left">
+                                <h4>SUMMER 2020</h4>
+                                <h1>Vita Classic Product</h1>
+                                <p>We know how large objects will act, We know<br>how are objects will act, We know.</p>
+                                <menu class="caption-menu">
+                                    <li>
+                                        <p>$16.48</p>
+                                    </li>
+                                    <li><button>ADD TO CART</button></li>
+                                </menu>
+                            </article>
+                            <article class="container-carousel-right">
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev">
+                <img src="src/img/carousel1/botãoanteriorvetor.svg" alt="icone de botão para voltar">
+            </a>
+            <a class="carousel-control-next" href="#myCarousel2" role="button" data-slide="next">
+                <img src="src/img/carousel1/botãoproximovetor.svg" alt="icone de botão para avançar">
+            </a>
+        </div>
+
+        <!-- Container -->
+        <section class="container-fluid" id="myContainerFluid">
+            <img src="src/img/containerfluid/asian-woman-man-with-winter-clothes 1.png" alt="um homem e uma mulher, ambos asiaticos sorrindo embrulhados num pano vermelho">
+            <header>
+                <h5>SUMMER 2020</h5>
+                <h1>Part of the Neural<br>Universe</h1>
+                <p>We know how large objects will act,<br />
+                    but things on a small scale.</p>
+                <menu>
+                    <li>
+                        <button class="left">BUY NOW</button>
+                    </li>
+                    <li>
+                        <button class="right">READ MORE</button>
+                    </li>
+                </menu>
+            </header>
+        </section>
+
+        <!-- Blog -->
+        <section class="blog" id="myBlog">
+            <header>
+                <article>
+                    <p class="cor-azul">Practice Advice</p>
+                    <h2>Featured Posts</h2>
+                    <p>Problems trying to resolve the conflict between<br />
+                        the two major realms of Classical physics: Newtonian mechanics </p>
+                </article>
+            </header>
+            <section class="sectionBlog">
+                <card>
+                    <figure><img src="src/img/blog/rua.png" alt="Uma rua com casas parecidas intercalando a cor amarelo e laranja"></figure>
+                    <article>
+                        <menu class="menu-top">
+                            <li>
+                                <p class="google">Google</p>
+                            </li>
+                            <li>
+                                <p>Trending</p>
+                            </li>
+                            <li>
+                                <p>New</p>
+                            </li>
+                        </menu>
+                        <main>
+                            <h3>Loudest à la Madison #1
+                                (L'integral)</h3>
+                            <p>We focus on ergonomics and meeting
+                                you where you work. It's only a<br>
+                                keystroke away.</p>
+                        </main>
+                        <section class="section">
+                            <menu class="menu">
+                                <li><img src="src/img/blog/icon cool-icon-coolicon vector.svg" alt="um icone de relogio">
+                                    <p>22 April 2021</p>
+                                </li>
+                                <li><img src="src/img/blog/icon ant-design-area-chart-outlined vector.svg" alt="um icone de imagem pequena para representar comentarios">
+                                    <p>10 comments</p>
+                                </li>
+                            </menu>
+                        </section>
+                        <footer>
+                            <h4>Learn More</h4> <img src="src/img/blog/@none.svg" alt="icone de seta maior">
+                        </footer>
+                    </article>
+                </card>
+                <card>
+                    <figure><img src="src/img/blog/fusca.png" alt="um fusca rosa na frente de uma casa azul do lado de outro predio rosa"></figure>
+                    <article>
+                        <menu class="menu-top">
+                            <li>
+                                <p class="google">Google</p>
+                            </li>
+                            <li>
+                                <p>Trending</p>
+                            </li>
+                            <li>
+                                <p>New</p>
+                            </li>
+                        </menu>
+                        <main>
+                            <h3>Loudest à la Madison #1
+                                (L'integral)</h3>
+                            <p>We focus on ergonomics and meeting
+                                you where you work. It's only a<br>
+                                keystroke away.</p>
+                        </main>
+                        <section class="section">
+                            <menu class="menu">
+                                <li><img src="src/img/blog/icon cool-icon-coolicon vector.svg" alt="um icone de relogio">
+                                    <p>22 April 2021</p>
+                                </li>
+                                <li><img src="src/img/blog/icon ant-design-area-chart-outlined vector.svg" alt="um icone de imagem pequena para representar comentarios">
+                                    <p>10 comments</p>
+                                </li>
+                            </menu>
+                        </section>
+                        <footer>
+                            <h4>Learn More</h4><img src="src/img/blog/@none.svg" alt="icone de seta maior">
+                        </footer>
+                    </article>
+                </card>
+                <card>
+                    <figure><img src="src/img/blog/guardachuva.png" alt="um fusca rosa na frente de uma casa azul do lado de outro predio rosa"></figure>
+                    <article>
+                        <menu class="menu-top">
+                            <li>
+                                <p class="google">Google</p>
+                            </li>
+                            <li>
+                                <p>Trending</p>
+                            </li>
+                            <li>
+                                <p>New</p>
+                            </li>
+                        </menu>
+                        <main>
+                            <h3>Loudest à la Madison #1
+                                (L'integral)</h3>
+                            <p>We focus on ergonomics and meeting
+                                you where you work. It's only a<br>
+                                keystroke away.</p>
+                        </main>
+                        <section class="section">
+                            <menu class="menu">
+                                <li><img src="src/img/blog/icon cool-icon-coolicon vector.svg" alt="um icone de relogio">
+                                    <p>22 April 2021</p>
+                                </li>
+                                <li><img src="src/img/blog/icon ant-design-area-chart-outlined vector.svg" alt="um icone de imagem pequena para representar comentarios">
+                                    <p>10 comments</p>
+                                </li>
+                            </menu>
+                        </section>
+                        <footer>
+                            <h4>Learn More</h4><img src="src/img/blog/@none.svg" alt="icone de seta maior">
+                        </footer>
+                    </article>
+                </card>
+            </section>
+        </section>
+
+        <!-- Fim do main -->
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="myFooter">
+        <header class="footer-imgs">
+            <section class="container-imgs">
+                <img class="logo" src="src/img/footer/Bandage.svg" alt="logo da empresa do site bandage">
+                <figure>
+                    <img src="src/img/footer/Vector.png" alt="logo do facebook">
+                    <img src="src/img/footer/Vector(1).png" alt="logo do instagram">
+                    <img src="src/img/footer/Vector(2).png" alt="logo do twitter (chamado de X)">
+                </figure>
+            </section>
+        </header>
+        <menu class="footer-menu">
+            <main class="footer-main">
+                <menu>
+                    <h4>Company Info</h4>
+                    <p>About Us</p>
+                    <p>Carrier</p>
+                    <p>We are hiring</p>
+                    <p>Blog</p>
+                </menu>
+                <menu>
+                    <h4>Legal</h4>
+                    <p>About Us</p>
+                    <p>Carrier</p>
+                    <p>We are hiring</p>
+                    <p>Blog</p>
+                </menu>
+                <menu>
+                    <h4>Features</h4>
+                    <p>Business Marketing</p>
+                    <p>User Analytic</p>
+                    <p>Live Chat</p>
+                    <p>Unlimited Support</p>
+                </menu>
+                <menu>
+                    <h4>Resources</h4>
+                    <p>IOS & Android</p>
+                    <p>Watch a Demo</p>
+                    <p>Customers</p>
+                    <p>API</p>
+                </menu>
+                <menu class="main-email">
+                    <h4>Get In Touch</h4>
+                    <section class="email-subscription">
+                        <form class="form">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                        <p>Lore imp sum dolor Amit</p>
+                    </section>
+                </menu>
+            </main>
+        </menu>
+        <footer class="footer">
+            <p>Made With Love By Finland All Right Reserved</p>
+        </footer>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

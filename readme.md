@@ -9,19 +9,31 @@ O projeto está estruturado da seguinte forma:
 ```
 projeto-html-css/
 │
-├── css/
-│   └── styles.css
-│
-├── img/
-│   └── (imagens utilizadas no projeto)
-│
 ├── src/
-│   └── (arquivos HTML do projeto)
+|   |
+│   ├── css
+|   |   ├── stilo.css
+|   |   └── stilo2.css
+|   |
+|   ├── img
+|   |   ├── blog
+|   |   ├── carousel1
+|   |   ├── carousel2
+|   |   ├── containerfluid
+|   |   ├── footer
+|   |   ├── nav
+|   |   ├── productcards
+|   |   ├── shopcards
+|   |   └── Bandage.ico
+|   |
+|   └── js
+|       └── index.js
 │
-├── index.html, idex (atualizado) copy.html, stilo (atualizado) copy.css e stilo.css.
-│   └── (arquivos raiz do projeto)
+├── index.html
 |
-└── README.md
+├── readme.md
+|
+└── LICENSE
 ```
 
 ## Como Usar
